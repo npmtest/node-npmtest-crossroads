@@ -1,6 +1,6 @@
 # npmtest-crossroads
 
-#### test coverage for  [crossroads (v0.12.2)](http://millermedeiros.github.com/crossroads.js/)  [![npm package](https://img.shields.io/npm/v/npmtest-crossroads.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-crossroads) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-crossroads.svg)](https://travis-ci.org/npmtest/node-npmtest-crossroads)
+#### basic test coverage for  [crossroads (v0.12.2)](http://millermedeiros.github.com/crossroads.js/)  [![npm package](https://img.shields.io/npm/v/npmtest-crossroads.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-crossroads) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-crossroads.svg)](https://travis-ci.org/npmtest/node-npmtest-crossroads)
 
 #### Flexible router which can be used in multiple environments
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-crossroads/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-crossroads/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-crossroads/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-crossroads/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-crossroads/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-crossroads/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-crossroads/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-crossroads/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-crossroads/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-crossroads/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-crossroads/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-crossroads/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
         "pretest": "node build",
         "test": "node node_modules/.bin/jasmine-node dev/tests/spec"
     },
-    "version": "0.12.2"
+    "version": "0.12.2",
+    "bin": {}
 }
 ```
 
